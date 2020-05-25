@@ -200,6 +200,19 @@ h1 {
   justify-content: space-around;
 }
 
+.about .about-text div {
+  padding: 3rem 8rem;
+}
+.about .about-text h3 {
+  padding: 2rem 0rem;
+  font-family: 'Ruhl Medium';
+}
+
+.about .about-text h2 {
+  padding: 4rem;
+  font-family: 'Vibes';
+}
+
 /* ANIMATIONS */
 
 @keyframes opening {
@@ -264,5 +277,10 @@ h1 {
     color: white;
     font-size: var(--header3);
     text-decoration: underline;
+  }
+
+  /* About section */
+  .about .about-text div {
+    padding: 3rem 3rem;
   }
 }
