@@ -394,4 +394,14 @@ footer ul {
   .contact img {
     display: none;
   }
+
+  footer ul {
+    order: 1;
+  }
+
+  footer h4 {
+    order: 2;
+    text-align: center;
+    padding: 1rem;
+  }
 }
