@@ -259,7 +259,7 @@ h1 {
 }
 
 .form-wrapper h2 {
-  margin-bottom: 3rem;
+  margin: 5rem 0 rem;
 }
 
 .form-wrapper span {
@@ -287,6 +287,26 @@ h1 {
 
 .contact img {
   flex: 1 1 40rem;
+}
+
+/* FOOTER SECTION */
+footer {
+  background: var(--background-color);
+  color: white;
+  display: flex;
+  padding: 3rem 5%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer h4 {
+  flex: 3 1 40rem;
+  font-size: calc(1.6rem + 1vw);
+}
+footer ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ANIMATIONS */
@@ -369,6 +389,9 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
   .gallery-head {
+    display: none;
+  }
+  .contact img {
     display: none;
   }
 }
