@@ -259,7 +259,7 @@ h1 {
 }
 
 .form-wrapper h2 {
-  margin: 5rem 0 rem;
+  margin: 5rem 0rem;
 }
 
 .form-wrapper span {
@@ -373,6 +373,24 @@ footer ul {
     color: white;
     font-size: var(--header3);
     text-decoration: underline;
+  }
+
+  .nav-open {
+    transform: translateX(-100%);
+  }
+
+  .toggle .line1 {
+    transform: rotateZ(45deg) translateY(300%);
+    background: white;
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotateZ(45deg) translateY(-300%);
+    background: white;
   }
 
   /* About section */
