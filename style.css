@@ -30,6 +30,7 @@ html {
   --special-color: #906272;
   --background-color: #414141;
   --gray-text: #525252;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -350,6 +351,7 @@ footer ul {
   .burger {
     position: relative;
     display: block;
+    cursor: pointer;
   }
   .burger span {
     padding: 0.2rem 2rem;
@@ -389,7 +391,7 @@ footer ul {
   }
 
   .toggle .line3 {
-    transform: rotateZ(45deg) translateY(-300%);
+    transform: rotateZ(-45deg) translateY(-300%);
     background: white;
   }
 
